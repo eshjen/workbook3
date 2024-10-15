@@ -9,3 +9,8 @@ function addNumbers(num1, num2) {
   console.log(num1 + "+" + num2 + "=" + (num1 + num2));
 }
 addNumbers(2, 2);
+
+function displayReceipt(totalDue, amountPaid) {
+  console.log("Total Due: " + totalDue + " Amount Paid: " + amountPaid + " Change Due: " + (amountPaid - totalDue));
+}
+displayReceipt(65,80)
